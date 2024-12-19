@@ -1,0 +1,94 @@
+.home {
+    grid-area: home;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 0px;
+}
+
+
+.navBar {
+    grid-area: navBar;
+}
+
+.list {
+    grid-area: list;
+}
+
+.form {
+    grid-area: form;
+}
+
+.color {
+    grid-area: color;
+}
+
+.image {
+    grid-area: image;
+}
+
+.dollar {
+    grid-area: dollar;
+}
+
+.App {
+    display: grid;
+    grid-template-areas:
+        'list image'
+        'home image'
+        'color dollar'
+    ;
+    grid-template-columns: 5fr 3fr;
+
+}
+
+.listDiv {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.allForm {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.containerForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 340px;
+}
+
+.itemInput {
+    width: 48%;
+    margin-bottom: 1rem;
+}
+
+
+
+.iconDollar {
+    height: 20px;
+    size: 20px;
+}
+
+.allList {
+    margin-right: 50px;
+
+}
+
+.searchSort {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-top: 5%;
+    margin-left: 0px;
+}
+
+.listHead {
+    display: flex;
+    flex-direction: column;
+    margin-right: 23%;
+    margin-left: 18%;
+}
